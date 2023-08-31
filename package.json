@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "nodemon server"
   },
   "keywords": [],
   "author": "",
